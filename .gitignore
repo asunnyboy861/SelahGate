@@ -1,4 +1,5 @@
 .env
+.DS_Store
 keytext*.md
 COMPETITOR_REPORT.md
 GLMSecret.txt
