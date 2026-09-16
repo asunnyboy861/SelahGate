@@ -1,0 +1,581 @@
+{
+ "version": 1,
+ "prayers": [
+  {
+   "id": "anxious-0",
+   "mood": "anxious",
+   "text": "Father, my heart is racing and my thoughts will not rest. You see every worry I carry. Quiet my spirit with Your presence. Remind me that You hold tomorrow, and I only need to hold Your hand today. Give me the peace that passes understanding, and let me breathe again. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-1",
+   "mood": "anxious",
+   "text": "Lord, I am anxious about what I cannot control. I bring my fears to You instead of feeding them. Be my anchor when my mind drifts to the worst. Cover me with Your calm, and teach me to trust Your timing. I release this weight into Your hands. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-2",
+   "mood": "anxious",
+   "text": "God of all comfort, worry has been my companion all day. I choose now to trade it for Your peace. Where my thoughts spiral, speak stillness. Where my chest tightens, breathe rest. You have carried me this far; You will not stop now. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-3",
+   "mood": "anxious",
+   "text": "Dear Lord, I confess I have been rehearsing problems instead of praying. Forgive me and retrain my heart. Let Your word be louder than my what-ifs. I belong to You, and so does this day. Guard my heart and mind in Christ Jesus. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-4",
+   "mood": "anxious",
+   "text": "Heavenly Father, fear knocks loudly at my door today. Help me answer with faith instead. You have never failed me, even when I could not see the way. Steady my trembling thoughts. Fill the empty places of worry with Your faithful love. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-5",
+   "mood": "anxious",
+   "text": "Lord, my mind keeps running ahead of me into dark places. Call me back to this moment, where You are. You are already in my tomorrow, preparing grace I cannot yet see. I will not borrow trouble. I will rest in You. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-6",
+   "mood": "anxious",
+   "text": "Father, I feel small against the size of my worries. But You are not small. You spoke oceans into being, and You speak peace over me now. Silence the storm inside me. Help me lay every care at Your feet and leave it there. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "anxious-7",
+   "mood": "anxious",
+   "text": "Jesus, when the waves of anxiety rise, remind me You are in the boat with me. I do not need calm circumstances as much as I need Your calm heart in me. Settle me, Lord. Be my rest and my refuge tonight and always. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-0",
+   "mood": "overwhelmed",
+   "text": "Father, I am stretched beyond my strength, and I admit it. I cannot carry all of this alone, and You never asked me to. Lighten my load, order my steps, and give me grace for the next thing only. You are my rest in the whirlwind. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-1",
+   "mood": "overwhelmed",
+   "text": "Lord, everything feels like too much right now. Slow me down. Help me do one faithful thing at a time, with You beside me. Remind me that my worth is not my output. Be my breathing room, my shelter, my pause. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-2",
+   "mood": "overwhelmed",
+   "text": "God, my mind is a crowded room today. I ask You to clear the noise and be the only voice I follow. You are not hurried and You are never late. Teach me Your unhurried rhythm. I trade my chaos for Your calm. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-3",
+   "mood": "overwhelmed",
+   "text": "Dear Father, I am drowning in tasks and tension. Throw me the rope of Your presence. Ground me in what matters eternally and let the rest fall where it may. You are my portion, even when my hands are full and my heart is empty. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-4",
+   "mood": "overwhelmed",
+   "text": "Jesus, You slept in a storm. Teach me that kind of trust. The demands will still be there tomorrow, but Your mercy is new this morning. Carry what I cannot. Calm what I should not touch. Be my enough. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-5",
+   "mood": "overwhelmed",
+   "text": "Lord, I have said yes to too much and rest has gone missing. Forgive my striving. Show me what to lay down without guilt. You do not love me more when I am busy. Help me live from Your rest, not for my performance. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-6",
+   "mood": "overwhelmed",
+   "text": "Father of mercy, my shoulders ache under invisible weight. You invite the heavy-laden to come. Here I am. Take the load I was never meant to lift. Refresh my soul in Your gentleness, for Your yoke is easy and Your heart is kind. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "overwhelmed-7",
+   "mood": "overwhelmed",
+   "text": "God, I feel behind on everything except worry. Meet me in this pause. Remind me that oak trees grow slow and deep roots grow hidden. Let this interruption of prayer be the most productive thing I do today. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-0",
+   "mood": "bored",
+   "text": "Father, I confess I reach for my phone when my soul reaches for more. Only You can fill the ache behind my scrolling. Wake up my wonder. Make me hungry for Your word like I am hungry for noise. Be my satisfaction. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-1",
+   "mood": "bored",
+   "text": "Lord, the emptiness I try to entertain away is really a longing for You. Meet me in this quiet moment. Show me the beauty I keep missing while I look down at a screen. Lift my eyes. Renew my appetite for what is real. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-2",
+   "mood": "bored",
+   "text": "God of wonder, I am numb to the miracles around me. Forgive my dull heart. Open my eyes to Your artistry in the sky, in small kindnesses, in this very breath. Draw me out of distraction into delight in You. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-3",
+   "mood": "bored",
+   "text": "Jesus, You said You came to give life abundant, and I have settled for life on a screen. Revive me. Give me holy curiosity, courage to be still, and joy that does not need a charge cable. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-4",
+   "mood": "bored",
+   "text": "Father, boredom is often my heart asking a deeper question. What am I really made for? Rekindle purpose in me. Show me one person I can encourage today, one beauty I can notice, one prayer I have forgotten to pray. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-5",
+   "mood": "bored",
+   "text": "Lord, I keep feeding my eyes but starving my soul. Flip the table in my heart like You did in the temple. Make room for what is holy. Turn this dull moment into a doorway to You. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-6",
+   "mood": "bored",
+   "text": "God, I am tired of being tired of nothing. Create in me a clean hunger. Let Your word be sweeter than honey and more gripping than any feed. Satisfy me at Your table before I wander to lesser ones. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "bored-7",
+   "mood": "bored",
+   "text": "Father, every scroll promises something new but delivers nothing lasting. I turn from empty wells to Your living water. Fill the hollow places. Teach me to savor slowness, silence, and Your steady love. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-0",
+   "mood": "lonely",
+   "text": "Father, I feel unseen tonight. But You have counted every hair on my head and caught every tear in a bottle. Sit with me in this loneliness. Whisper that I am known, chosen, and never abandoned. Be the friend who stays. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-1",
+   "mood": "lonely",
+   "text": "Lord, the room is quiet and my heart is louder. Remind me that loneliness is a room where You are also present. Fill the silence with Your nearness. And in Your timing, send real people to share this life with me. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-2",
+   "mood": "lonely",
+   "text": "God, I miss being known. You know me completely and love me still. That is staggering. Wrap me in that love now. Give me courage to reach out to someone tomorrow, and grace to believe connection is still possible. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-3",
+   "mood": "lonely",
+   "text": "Jesus, You were abandoned so I never have to be. When loneliness lies to me, answer it with Your promise: I will never leave you nor forsake you. Hold me in that truth tonight. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-4",
+   "mood": "lonely",
+   "text": "Father, loneliness has been a long season. I ask not just for relief but for growth in the waiting. Root me deeper in You, my ever-present companion. Prepare my heart for the friendships ahead, and keep bitterness far from me. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-5",
+   "mood": "lonely",
+   "text": "Lord, I feel like a stranger even in a crowd. You were a stranger too, born in a borrowed manger. You understand. Draw near to me as I draw near to You. Let Your presence be warmth enough for tonight. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-6",
+   "mood": "lonely",
+   "text": "God of the outcast, You see the one everyone overlooks. Sometimes that one is me. Thank You for noticing. Remind me that my place at Your table was bought with a price, and no loneliness can unseat me. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "lonely-7",
+   "mood": "lonely",
+   "text": "Father, I bring You the ache of missing someone. Comfort requires honesty, so here it is. Be close to the broken-hearted. Bind up what is raw in me. And let hope arrive quietly, like morning light under a door. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-0",
+   "mood": "grateful",
+   "text": "Father, thank You. Before I ask for anything, I just want to say it plainly: thank You. For breath, for mercy, for this ordinary day stitched with extraordinary grace. You have been better to me than I have remembered to notice. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-1",
+   "mood": "grateful",
+   "text": "Lord, I have scrolled past a hundred blessings today without a word of thanks. Forgive my forgetfulness. Right now I count them out loud: life, love, forgiveness, hope. You have filled my cup until it runs over. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-2",
+   "mood": "grateful",
+   "text": "God, gratitude changes my eyes. Today You helped me see Your gifts hiding in plain sight: laughter, sunlight, a friend's message, a meal. You are a generous Father. Train my heart to say thank You as naturally as it breathes. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-3",
+   "mood": "grateful",
+   "text": "Jesus, every good gift comes from Your hand, including this moment of peace. Thank You for carrying me through what I thought would break me. My praise is my protest against worry. You have been faithful. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-4",
+   "mood": "grateful",
+   "text": "Father, I thank You not because everything is perfect but because You are. In the mess and the mundane, Your love holds steady. Let my thankfulness today be a sacrifice of praise that pleases You. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-5",
+   "mood": "grateful",
+   "text": "Lord, thank You for the prayers You answered that I forgot I prayed. Thank You for the ones You answered with no, because You loved me. My whole life is a gift I did not earn. Receive my wonder and my thanks. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-6",
+   "mood": "grateful",
+   "text": "God, I want to be a grateful person, not just on good days. Even now, in the middle of ordinary chaos, You are here, providing, forgiving, teaching. Thank You for grace that does not run dry. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-7",
+   "mood": "grateful",
+   "text": "Father, today I choose thanksgiving over complaint. Thank You for my body that works, for people who tolerate me, for grace that covers me. You have done great things. My soul magnifies You. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-0",
+   "mood": "angry",
+   "text": "Father, I am angry and I am not proud of it. Before it burns someone I love, I bring the fire to You. Cool my temper. Help me listen before I speak, and speak only what builds. Give me Your patience. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-1",
+   "mood": "angry",
+   "text": "Lord, someone wronged me and my jaw is tight. You are a just God; I release my right to revenge into Your hands. Heal the hurt underneath the heat. Make me slow to anger and quick to forgive, as You have been with me. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-2",
+   "mood": "angry",
+   "text": "God, my anger is a signal, not a master. Show me what is really hurting beneath it. Guard my tongue tonight. Let my words be a stream of life, not a forest fire. Peace begins in me because You live in me. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-3",
+   "mood": "angry",
+   "text": "Jesus, when You were insulted You did not retaliate. That kind of strength is beyond me, so I ask for it. Break the cycle of harsh words in me. Make me an instrument of Your peace instead of my temper. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-4",
+   "mood": "angry",
+   "text": "Father, I have been rehearsing an argument that ended hours ago. Take the replay from my mind. Vengeance is Yours; I hand it over. Soften my heart before I harden into someone I do not want to be. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-5",
+   "mood": "angry",
+   "text": "Lord, righteous anger and sinful rage live close together, and I cannot always tell them apart. Search me. Keep what is just, burn away what is pride. Let me be angry at evil without wounding Your children. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-6",
+   "mood": "angry",
+   "text": "God, give me one slow breath before I respond. One verse before I vent. One prayer before I post. Guard my testimony and my relationships from a moment of unguarded fury. Be Lord of my mouth. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "angry-7",
+   "mood": "angry",
+   "text": "Father, I forgive as I have been forgiven, which means imperfectly and only by Your help. Start the work of forgiveness in me now. Where I cannot yet release the debt, hold me steady until grace finishes its work. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-0",
+   "mood": "tempted",
+   "text": "Father, temptation is dressing itself up as something harmless. Open my eyes. You always provide a way of escape; help me take it, even when my feet drag. I want freedom more than I want the thrill. Strengthen me now. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-1",
+   "mood": "tempted",
+   "text": "Lord, I know exactly where I am weak, and so does the enemy. Post Your word as a sentry over my heart. When the pull comes, make me run to You instead of toward it. Deliver me from evil. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-2",
+   "mood": "tempted",
+   "text": "God, I have walked to the edge of this temptation too many times. Move my feet back tonight. Give me hatred for the sin and love for the holiness that protects me. Guard my eyes, my mind, my click. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-3",
+   "mood": "tempted",
+   "text": "Jesus, You were tempted in every way yet never sinned. You sympathize and You strengthen. Be my high priest in this moment of weakness. Remind me who I am: Yours, bought at a price, called to better. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-4",
+   "mood": "tempted",
+   "text": "Father, I am tired of the cycle: fall, shame, promise, repeat. Break it. Not by my willpower but by Your power. Give me honest community, quick confession, and the courage to choose the hard right over the easy wrong. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-5",
+   "mood": "tempted",
+   "text": "Lord, the first step is usually small: a glance, a tap, a lingering thought. Help me turn at the first step, not the tenth. Keep my heart tender. Convict me early, forgive me completely, empower me continually. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-6",
+   "mood": "tempted",
+   "text": "God, I am tempted to numb pain in ways that create more pain. Show me the wound underneath the want. Heal it with Your presence, not my habits. Be my comfort, my escape, my rest. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tempted-7",
+   "mood": "tempted",
+   "text": "Father, my phone is a doorway and I hold the keys. Help me set boundaries that honor You: time limits, honest reports, prayers before I open it. Make my device a tool for good and never an altar for sin. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-0",
+   "mood": "tired",
+   "text": "Father, I am bone-tired, the kind sleep does not fix. You renew the strength of the weary. Do that for me now. Not just energy for tasks, but joy for the journey. Carry me when walking is all I can do. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-1",
+   "mood": "tired",
+   "text": "Lord, I have been pouring out all day. Fill me back up. You are the God who rested, so rest is holy, not lazy. Teach me to stop without guilt and to receive Your restoration tonight. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-2",
+   "mood": "tired",
+   "text": "God, I keep going because everything seems urgent. But You never asked me to run on empty. Give me wisdom to rest before I break. My body is Your temple; help me care for it as an act of worship. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-3",
+   "mood": "tired",
+   "text": "Jesus, You grew tired and slept in a boat. You know this exhaustion from the inside. Thank You for understanding without a lecture. Refresh my body, restore my soul, renew my hope. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-4",
+   "mood": "tired",
+   "text": "Father, harvest season is long and I feel like fainting. Remind me I do not reap in my own strength. Sustain me with Your promises. At the proper time, I will reap if I do not give up. Hold me to that hope. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-5",
+   "mood": "tired",
+   "text": "Lord, my mind is foggy and my patience is thin. Before I snap at someone I love, restore my soul. Be my green pasture and quiet water tonight. Lead me beside stillness I keep refusing. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-6",
+   "mood": "tired",
+   "text": "God of the sabbath, I have treated rest like a reward instead of a rhythm. Forgive me. Establish Your rhythm in my week. Let sleep be a sermon my body preaches: You are God and I am not. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "tired-7",
+   "mood": "tired",
+   "text": "Father, thank You that Your mercies are new every morning, because I will need them fresh at sunrise. Tonight I lay down my tasks, my tension, and my tiredness. Guard my rest. Wake me renewed. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-0",
+   "mood": "sad",
+   "text": "Father, my heart is heavy and the tears come without warning. You collect them all in a bottle. Sit with me in this sorrow. Do not rush me out of it, but do not leave me in it. Be near to the broken-hearted. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-1",
+   "mood": "sad",
+   "text": "Lord, grief is a language I am learning slowly. Some days I can only say Your name. That is enough for You, isn't it? Hold what is breaking in me. Comfort me the way only the Father of mercies can. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-2",
+   "mood": "sad",
+   "text": "God, the sadness comes in waves. When the next one hits, remind me that weeping may stay for the night, but joy comes with the morning. Until that morning, keep me breathing, keep me hoping, keep me Yours. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-3",
+   "mood": "sad",
+   "text": "Jesus, You wept at a tomb even knowing resurrection was moments away. You do not shame my tears. Thank You. Walk me through this valley at my pace, and let Your rod and staff comfort me. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-4",
+   "mood": "sad",
+   "text": "Father, I miss what I have lost, and the missing has no schedule. Teach me that grief is love with nowhere to go, and You are a destination for it. Receive my love, my memories, my sorrow. Heal at the root. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-5",
+   "mood": "sad",
+   "text": "Lord, I am sad for reasons I cannot explain. I do not need to perform happiness for You. You see the real forecast in my soul. Bring gentle light through the clouds, in Your time, in Your way. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-6",
+   "mood": "sad",
+   "text": "God, despair whispers that this darkness is permanent. Answer that lie with Your promises. You are doing a new thing, even when I cannot perceive it. Keep my heart soft until spring. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "sad-7",
+   "mood": "sad",
+   "text": "Father, thank You that You are close to the crushed in spirit, which means You have never been closer. Let me feel that nearness tonight. Turn my mourning into dancing, slowly, faithfully, completely. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-0",
+   "mood": "grateful-night",
+   "text": "Father, the day is done and I give it back to You. Thank You for carrying me through it. Forgive what failed, receive what was faithful. Let my sleep be trust in action: You stay awake so I do not have to. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-1",
+   "mood": "grateful-night",
+   "text": "Lord, quiet my mind for sleep. The thoughts that sprint at night are no match for Your shepherding. Make me lie down in green pastures. Guard my dreams. Wake me with mercy in the morning. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-2",
+   "mood": "grateful-night",
+   "text": "God, I end this day thanking You: for food, for shelter, for people I love, for grace that covered my mistakes. I am safe in Your hands all night. I will not fear the dark. You are my night light. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-3",
+   "mood": "grateful-night",
+   "text": "Jesus, You slept through a storm on the Sea of Galilee. Give me that peace tonight. Every worry can wait until morning, because You never sleep nor slumber. Receive my tired body and busy mind. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-4",
+   "mood": "grateful-night",
+   "text": "Father, if today was hard, I lay it down. If today was good, I lay it down. Everything belongs to You anyway. Bless the ones I love as they sleep. Keep this house in peace. In peace I will lie down and sleep. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-5",
+   "mood": "grateful-night",
+   "text": "Lord, the glow of my screen promises rest but steals it. I put it down and pick up Your promises instead. Be the last voice in my head tonight. Let Your word be my lullaby. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-6",
+   "mood": "grateful-night",
+   "text": "God of the night watch, while the world spins in the dark, You hold it steady. I am a small and loved part of that world. Thank You for this day, for rest, for tomorrow's unknown mercy already waiting. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "grateful-night-7",
+   "mood": "grateful-night",
+   "text": "Father, I confess today's sins, big and small, known and forgotten. Your forgiveness is my pillow. I rest not in my performance but in Your faithfulness. Good night, Lord. You have the watch. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-0",
+   "mood": "focused",
+   "text": "Father, my attention is pulled in ten directions. Set my mind on things above, starting with these next minutes. Help me do this one thing with excellence, as unto You. Be the center of my scattered day. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-1",
+   "mood": "focused",
+   "text": "Lord, I confess distraction has become my default. Retrain my heart. Give me the discipline to choose depth over noise, one faithful task over a hundred shallow ones. Your presence is my focus. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-2",
+   "mood": "focused",
+   "text": "God, help me finish what I start. The pull to escape into my phone is strong, but purpose is stronger. When I drift, gently call me back. Let this work serve Your kingdom, even in small ways. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-3",
+   "mood": "focused",
+   "text": "Jesus, You set Your face toward Jerusalem and did not waver. Give me a fraction of that resolve. Keep my eyes on what matters and my hands on the task. Guard me from the tyranny of trivial things. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-4",
+   "mood": "focused",
+   "text": "Father, teach me to number my days, because focus begins with finitude. I cannot do everything; help me do the next right thing. Order my priorities. Silence the good so the best can speak. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-5",
+   "mood": "focused",
+   "text": "Lord, before I open another app, ask me: does this serve Your purpose for me today? Tune my conscience to that question. Make my minutes count for something eternal. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-6",
+   "mood": "focused",
+   "text": "God, my mind wanders like sheep. Be my good shepherd; gather my thoughts. I offer You this hour of concentration as worship. When I succeed, keep me humble; when I fail, keep me gracious. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "focused-7",
+   "mood": "focused",
+   "text": "Father, deeper work needs deeper roots. Give me patience with the slow, unglamorous process of becoming excellent. Guard me from comparison and hurry. Let me build something today that will still stand tomorrow. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-0",
+   "mood": "seeking",
+   "text": "Father, I am seeking You with my whole heart. You promised I would find You when I seek with all that I am. Draw near as I draw near. Open my eyes to wonderful things in Your word. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-1",
+   "mood": "seeking",
+   "text": "Lord, I have searched everywhere for peace: feeds, purchases, entertainment. Today I turn to You, the source. Seek me as I seek You. Reveal Yourself in Scripture, in silence, in the honest company of Your people. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-2",
+   "mood": "seeking",
+   "text": "God, I have questions that will not leave me alone. Thank You for welcoming my honesty. Guide me into truth. Give me patience for the journey and faith for the unanswered. You are the way, even when I cannot see it. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-3",
+   "mood": "seeking",
+   "text": "Jesus, You told Your followers to ask, seek, and knock. So I am asking, seeking, knocking. I will not stop. Give me hunger that outlasts delay and humility to receive answers I did not expect. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-4",
+   "mood": "seeking",
+   "text": "Father, Your word is a lamp for my feet. Light the next step, not the whole staircase. That is enough for today. I trust Your heart when I cannot trace Your hand. Lead on. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-5",
+   "mood": "seeking",
+   "text": "Lord, in the noise I have lost the sound of Your voice. Quiet everything else. Speak, Lord, Your servant is listening. Make my heart soft enough to hear and brave enough to obey. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-6",
+   "mood": "seeking",
+   "text": "God, I want to want You more. Ignite holy desire in me. Show me the emptiness of lesser pursuits and the treasure of Your presence. My soul follows hard after You. Amen.",
+   "origin": "bundle"
+  },
+  {
+   "id": "seeking-7",
+   "mood": "seeking",
+   "text": "Father, seeking You is not a phase to complete but a life to live. Root my seeking in love, not just curiosity. Let every search today, every thought, every choice, bend toward You. Amen.",
+   "origin": "bundle"
+  }
+ ]
+}

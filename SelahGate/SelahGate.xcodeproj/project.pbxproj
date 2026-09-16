@@ -1,0 +1,1206 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		6A39DD73305A605F00FD0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39DD5D305A605E00FD0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39DD64305A605E00FD0765;
+			remoteInfo = SelahGate;
+		};
+		6A39DD7D305A605F00FD0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39DD5D305A605E00FD0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39DD64305A605E00FD0765;
+			remoteInfo = SelahGate;
+		};
+		6A39E120305A605E00FD0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39DD5D305A605E00FD0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39E110305A605E00FD0765;
+			remoteInfo = SelahGateMonitor;
+		};
+
+		6A39E220305A605E00FD0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39DD5D305A605E00FD0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39E210305A605E00FD0765;
+			remoteInfo = SelahGateShieldConfig;
+		};
+
+		6A39E320305A605E00FD0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39DD5D305A605E00FD0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39E310305A605E00FD0765;
+			remoteInfo = SelahGateShieldAction;
+		};
+
+		6A39E420305A605E00FD0765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A39DD5D305A605E00FD0765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A39E410305A605E00FD0765;
+			remoteInfo = SelahGateWidget;
+		};
+
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A39DD65305A605E00FD0765 /* SelahGate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelahGate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39DD72305A605F00FD0765 /* SelahGateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelahGateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39DD7C305A605F00FD0765 /* SelahGateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelahGateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SelahGateMonitor.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SelahGateShieldConfig.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SelahGateShieldAction.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A39E403305A605E00FD0765 /* SelahGateWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SelahGateWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		6A39DD67305A605E00FD0765 /* SelahGate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6A39DD90305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
+			path = SelahGate;
+			sourceTree = "<group>";
+		};
+		6A39DD90305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6A39DD64305A605E00FD0765 /* SelahGate */;
+		};
+		6A39DD75305A605F00FD0765 /* SelahGateTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SelahGateTests;
+			sourceTree = "<group>";
+		};
+		6A39DD7F305A605F00FD0765 /* SelahGateUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SelahGateUITests;
+			sourceTree = "<group>";
+		};
+		6A39E500305A605E00FD0765 /* SharedKit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SharedKit;
+			sourceTree = "<group>";
+		};
+		6A39E101305A605E00FD0765 /* SelahGateMonitor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6A39E102305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
+			path = SelahGateMonitor;
+			sourceTree = "<group>";
+		};
+		6A39E201305A605E00FD0765 /* SelahGateShieldConfig */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6A39E202305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
+			path = SelahGateShieldConfig;
+			sourceTree = "<group>";
+		};
+		6A39E301305A605E00FD0765 /* SelahGateShieldAction */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6A39E302305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
+			path = SelahGateShieldAction;
+			sourceTree = "<group>";
+		};
+		6A39E401305A605E00FD0765 /* SelahGateWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6A39E402305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
+			path = SelahGateWidget;
+			sourceTree = "<group>";
+		};
+		6A39E102305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6A39E110305A605E00FD0765 /* SelahGateMonitor */;
+		};
+		6A39E202305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6A39E210305A605E00FD0765 /* SelahGateShieldConfig */;
+		};
+		6A39E302305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6A39E310305A605E00FD0765 /* SelahGateShieldAction */;
+		};
+		6A39E402305A605E00FD0765 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6A39E410305A605E00FD0765 /* SelahGateWidget */;
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6A39E600305A605E00FD0765 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			6A39E122305A605E00FD0765 /* SelahGateMonitor.appex in Embed Foundation Extensions */,
+			6A39E222305A605E00FD0765 /* SelahGateShieldConfig.appex in Embed Foundation Extensions */,
+			6A39E322305A605E00FD0765 /* SelahGateShieldAction.appex in Embed Foundation Extensions */,
+			6A39E422305A605E00FD0765 /* SelahGateWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A39DD62305A605E00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39DD6F305A605F00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39DD79305A605F00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E104305A605E00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E105305A605E00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E106305A605E00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E204305A605E00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E205305A605E00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E206305A605E00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E304305A605E00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E305305A605E00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E306305A605E00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E404305A605E00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E405305A605E00FD0765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39E406305A605E00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A39DD5C305A605E00FD0765 = {
+			isa = PBXGroup;
+			children = (
+				6A39DD67305A605E00FD0765 /* SelahGate */,
+				6A39E500305A605E00FD0765 /* SharedKit */,
+				6A39DD75305A605F00FD0765 /* SelahGateTests */,
+				6A39DD7F305A605F00FD0765 /* SelahGateUITests */,
+				6A39DD66305A605E00FD0765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A39DD66305A605E00FD0765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */,
+			6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */,
+			6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */,
+			6A39E403305A605E00FD0765 /* SelahGateWidget.appex */,
+			6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */,
+			6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */,
+			6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */,
+			6A39E403305A605E00FD0765 /* SelahGateWidget.appex */,
+				6A39DD65305A605E00FD0765 /* SelahGate.app */,
+				6A39DD72305A605F00FD0765 /* SelahGateTests.xctest */,
+				6A39DD7C305A605F00FD0765 /* SelahGateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A39DD64305A605E00FD0765 /* SelahGate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39DD86305A605F00FD0765 /* Build configuration list for PBXNativeTarget "SelahGate" */;
+			buildPhases = (
+				6A39DD61305A605E00FD0765 /* Sources */,
+				6A39DD62305A605E00FD0765 /* Frameworks */,
+				6A39DD63305A605E00FD0765 /* Resources */,
+				6A39E600305A605E00FD0765 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A39E121305A605E00FD0765 /* PBXTargetDependency */,
+				6A39E221305A605E00FD0765 /* PBXTargetDependency */,
+				6A39E321305A605E00FD0765 /* PBXTargetDependency */,
+				6A39E421305A605E00FD0765 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A39DD67305A605E00FD0765 /* SelahGate */,
+				6A39E500305A605E00FD0765 /* SharedKit */,
+			);
+			name = SelahGate;
+			packageProductDependencies = (
+			);
+			productName = SelahGate;
+			productReference = 6A39DD65305A605E00FD0765 /* SelahGate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A39DD71305A605F00FD0765 /* SelahGateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39DD89305A605F00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateTests" */;
+			buildPhases = (
+				6A39DD6E305A605F00FD0765 /* Sources */,
+				6A39DD6F305A605F00FD0765 /* Frameworks */,
+				6A39DD70305A605F00FD0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A39DD74305A605F00FD0765 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A39DD75305A605F00FD0765 /* SelahGateTests */,
+			);
+			name = SelahGateTests;
+			packageProductDependencies = (
+			);
+			productName = SelahGateTests;
+			productReference = 6A39DD72305A605F00FD0765 /* SelahGateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A39DD7B305A605F00FD0765 /* SelahGateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39DD8C305A605F00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateUITests" */;
+			buildPhases = (
+				6A39DD78305A605F00FD0765 /* Sources */,
+				6A39DD79305A605F00FD0765 /* Frameworks */,
+				6A39DD7A305A605F00FD0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A39DD7E305A605F00FD0765 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				6A39DD7F305A605F00FD0765 /* SelahGateUITests */,
+			);
+			name = SelahGateUITests;
+			packageProductDependencies = (
+			);
+			productName = SelahGateUITests;
+			productReference = 6A39DD7C305A605F00FD0765 /* SelahGateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		6A39E110305A605E00FD0765 /* SelahGateMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39E111305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateMonitor" */;
+			buildPhases = (
+				6A39E104305A605E00FD0765 /* Sources */,
+				6A39E105305A605E00FD0765 /* Frameworks */,
+				6A39E106305A605E00FD0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6A39E101305A605E00FD0765 /* SelahGateMonitor */,
+				6A39E500305A605E00FD0765 /* SharedKit */,
+			);
+			name = SelahGateMonitor;
+			packageProductDependencies = (
+			);
+			productName = SelahGateMonitor;
+			productReference = 6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6A39E210305A605E00FD0765 /* SelahGateShieldConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39E211305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateShieldConfig" */;
+			buildPhases = (
+				6A39E204305A605E00FD0765 /* Sources */,
+				6A39E205305A605E00FD0765 /* Frameworks */,
+				6A39E206305A605E00FD0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6A39E201305A605E00FD0765 /* SelahGateShieldConfig */,
+				6A39E500305A605E00FD0765 /* SharedKit */,
+			);
+			name = SelahGateShieldConfig;
+			packageProductDependencies = (
+			);
+			productName = SelahGateShieldConfig;
+			productReference = 6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6A39E310305A605E00FD0765 /* SelahGateShieldAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39E311305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateShieldAction" */;
+			buildPhases = (
+				6A39E304305A605E00FD0765 /* Sources */,
+				6A39E305305A605E00FD0765 /* Frameworks */,
+				6A39E306305A605E00FD0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6A39E301305A605E00FD0765 /* SelahGateShieldAction */,
+				6A39E500305A605E00FD0765 /* SharedKit */,
+			);
+			name = SelahGateShieldAction;
+			packageProductDependencies = (
+			);
+			productName = SelahGateShieldAction;
+			productReference = 6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6A39E410305A605E00FD0765 /* SelahGateWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A39E411305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateWidget" */;
+			buildPhases = (
+				6A39E404305A605E00FD0765 /* Sources */,
+				6A39E405305A605E00FD0765 /* Frameworks */,
+				6A39E406305A605E00FD0765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				6A39E401305A605E00FD0765 /* SelahGateWidget */,
+				6A39E500305A605E00FD0765 /* SharedKit */,
+			);
+			name = SelahGateWidget;
+			packageProductDependencies = (
+			);
+			productName = SelahGateWidget;
+			productReference = 6A39E403305A605E00FD0765 /* SelahGateWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A39DD5D305A605E00FD0765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					6A39DD64305A605E00FD0765 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					6A39DD71305A605F00FD0765 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6A39DD64305A605E00FD0765;
+					};
+					6A39DD7B305A605F00FD0765 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = 6A39DD64305A605E00FD0765;
+					};
+				};
+			};
+			buildConfigurationList = 6A39DD60305A605E00FD0765 /* Build configuration list for PBXProject "SelahGate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A39DD5C305A605E00FD0765;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6A39DD66305A605E00FD0765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A39DD64305A605E00FD0765 /* SelahGate */,
+				6A39E110305A605E00FD0765 /* SelahGateMonitor */,
+				6A39E210305A605E00FD0765 /* SelahGateShieldConfig */,
+				6A39E310305A605E00FD0765 /* SelahGateShieldAction */,
+				6A39E410305A605E00FD0765 /* SelahGateWidget */,
+				6A39DD71305A605F00FD0765 /* SelahGateTests */,
+				6A39DD7B305A605F00FD0765 /* SelahGateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A39DD63305A605E00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39DD70305A605F00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39DD7A305A605F00FD0765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A39DD61305A605E00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39DD6E305A605F00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A39DD78305A605F00FD0765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A39DD74305A605F00FD0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39DD64305A605E00FD0765 /* SelahGate */;
+			targetProxy = 6A39DD73305A605F00FD0765 /* PBXContainerItemProxy */;
+		};
+		6A39DD7E305A605F00FD0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39DD64305A605E00FD0765 /* SelahGate */;
+			targetProxy = 6A39DD7D305A605F00FD0765 /* PBXContainerItemProxy */;
+		};
+		6A39E121305A605E00FD0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39E110305A605E00FD0765 /* SelahGateMonitor */;
+			targetProxy = 6A39E120305A605E00FD0765 /* PBXContainerItemProxy */;
+		};
+		6A39E221305A605E00FD0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39E210305A605E00FD0765 /* SelahGateShieldConfig */;
+			targetProxy = 6A39E220305A605E00FD0765 /* PBXContainerItemProxy */;
+		};
+		6A39E321305A605E00FD0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39E310305A605E00FD0765 /* SelahGateShieldAction */;
+			targetProxy = 6A39E320305A605E00FD0765 /* PBXContainerItemProxy */;
+		};
+		6A39E421305A605E00FD0765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A39E410305A605E00FD0765 /* SelahGateWidget */;
+			targetProxy = 6A39E420305A605E00FD0765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6A39DD84305A605F00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A39DD85305A605F00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A39DD87305A605F00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SelahGate/SelahGate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "SelahGate uses the camera only to recognize a verse from your paper Bible for unlock.";
+				INFOPLIST_KEY_NSFamilyControlsUsageDescription = "SelahGate uses Screen Time permission only to guard the apps you choose. Nothing leaves your iPhone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A39DD88305A605F00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SelahGate/SelahGate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGate/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "SelahGate uses the camera only to recognize a verse from your paper Bible for unlock.";
+				INFOPLIST_KEY_NSFamilyControlsUsageDescription = "SelahGate uses Screen Time permission only to guard the apps you choose. Nothing leaves your iPhone.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A39DD8A305A605F00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelahGate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SelahGate";
+			};
+			name = Debug;
+		};
+		6A39DD8B305A605F00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelahGate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SelahGate";
+			};
+			name = Release;
+		};
+		6A39DD8D305A605F00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelahGate;
+			};
+			name = Debug;
+		};
+		6A39DD8E305A605F00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelahGate;
+			};
+			name = Release;
+		};
+		6A39E112305A605E00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateMonitor/SelahGateMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateMonitor;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A39E113305A605E00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateMonitor/SelahGateMonitor.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateMonitor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateMonitor;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A39E212305A605E00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateShieldConfig/SelahGateShieldConfig.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateShieldConfig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateShieldConfig;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateShieldConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A39E213305A605E00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateShieldConfig/SelahGateShieldConfig.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateShieldConfig/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateShieldConfig;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateShieldConfig;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A39E312305A605E00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateShieldAction/SelahGateShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateShieldAction;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A39E313305A605E00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateShieldAction/SelahGateShieldAction.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateShieldAction/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateShieldAction;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateShieldAction;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A39E412305A605E00FD0765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateWidget/SelahGateWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateWidget;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A39E413305A605E00FD0765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = SelahGateWidget/SelahGateWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SelahGateWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SelahGateWidget;
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.SelahGate.SelahGateWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = nonisolated;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A39DD60305A605E00FD0765 /* Build configuration list for PBXProject "SelahGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39DD84305A605F00FD0765 /* Debug */,
+				6A39DD85305A605F00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39DD86305A605F00FD0765 /* Build configuration list for PBXNativeTarget "SelahGate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39DD87305A605F00FD0765 /* Debug */,
+				6A39DD88305A605F00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39DD89305A605F00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39DD8A305A605F00FD0765 /* Debug */,
+				6A39DD8B305A605F00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39DD8C305A605F00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39DD8D305A605F00FD0765 /* Debug */,
+				6A39DD8E305A605F00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39E111305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39E112305A605E00FD0765 /* Debug */,
+				6A39E113305A605E00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39E211305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateShieldConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39E212305A605E00FD0765 /* Debug */,
+				6A39E213305A605E00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39E311305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateShieldAction" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39E312305A605E00FD0765 /* Debug */,
+				6A39E313305A605E00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A39E411305A605E00FD0765 /* Build configuration list for PBXNativeTarget "SelahGateWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A39E412305A605E00FD0765 /* Debug */,
+				6A39E413305A605E00FD0765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A39DD5D305A605E00FD0765 /* Project object */;
+}
