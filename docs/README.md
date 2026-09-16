@@ -1,0 +1,10 @@
+# SelahGate Policy Pages
+
+This folder contains the policy pages for SelahGate.
+
+## Pages
+
+- [Landing Page](https://asunnyboy861.github.io/SelahGate/)
+- [Support](https://asunnyboy861.github.io/SelahGate/support.html)
+- [Privacy Policy](https://asunnyboy861.github.io/SelahGate/privacy.html)
+- [Terms of Use](https://asunnyboy861.github.io/SelahGate/terms.html)
