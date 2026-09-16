@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6A39E122305A605E00FD0765 /* SelahGateMonitor.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A39E222305A605E00FD0765 /* SelahGateShieldConfig.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A39E322305A605E00FD0765 /* SelahGateShieldAction.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6A39E422305A605E00FD0765 /* SelahGateWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6A39E403305A605E00FD0765 /* SelahGateWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6A39DD73305A605F00FD0765 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -300,14 +307,10 @@
 		6A39DD66305A605E00FD0765 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-			6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */,
-			6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */,
-			6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */,
-			6A39E403305A605E00FD0765 /* SelahGateWidget.appex */,
-			6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */,
-			6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */,
-			6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */,
-			6A39E403305A605E00FD0765 /* SelahGateWidget.appex */,
+				6A39E103305A605E00FD0765 /* SelahGateMonitor.appex */,
+				6A39E203305A605E00FD0765 /* SelahGateShieldConfig.appex */,
+				6A39E303305A605E00FD0765 /* SelahGateShieldAction.appex */,
+				6A39E403305A605E00FD0765 /* SelahGateWidget.appex */,
 				6A39DD65305A605E00FD0765 /* SelahGate.app */,
 				6A39DD72305A605F00FD0765 /* SelahGateTests.xctest */,
 				6A39DD7C305A605F00FD0765 /* SelahGateUITests.xctest */,
