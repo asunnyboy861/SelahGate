@@ -1,3 +1,4 @@
+import StoreKit
 import SwiftUI
 import SwiftData
 
@@ -8,6 +9,8 @@ struct RitualScreen: View {
 
     @Environment(\.modelContext) private var modelContext
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.requestReview) private var requestReview
+    @AppStorage("hasRequestedReview") private var hasRequestedReview = false
 
     @State private var phase: Phase = .mood
     @State private var mood: MoodTag = MoodTag.none
@@ -58,6 +61,7 @@ struct RitualScreen: View {
             Text("How's your heart right now?")
                 .font(Theme.serifTitle)
                 .multilineTextAlignment(.center)
+                .padding(.horizontal, 24)
             LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 12) {
                 ForEach(MoodTag.all) { tag in
                     Button {
@@ -141,6 +145,9 @@ struct RitualScreen: View {
         switch depth {
         case .light:
             VStack(spacing: 24) {
+                Components.VerseCard(verse: verse)
+                    .padding(.horizontal, 24)
+                    .padding(.top, 30)
                 Spacer()
                 Text("Let the words settle.")
                     .font(Theme.serifTitle)
@@ -157,6 +164,7 @@ struct RitualScreen: View {
                 Text("Which word completes the verse?")
                     .font(Theme.serifTitle)
                     .multilineTextAlignment(.center)
+                    .padding(.horizontal, 24)
                 Components.VerseCard(verse: maskedVerse)
                     .padding(.horizontal, 24)
                 VStack(spacing: 10) {
@@ -224,6 +232,16 @@ struct RitualScreen: View {
         }
     }
 
+    private func maybeRequestReview() {
+        guard !hasRequestedReview else { return }
+        let descriptor = FetchDescriptor<UnlockEvent>()
+        let total = (try? modelContext.fetchCount(descriptor)) ?? 0
+        if total >= 3 {
+            hasRequestedReview = true
+            requestReview()
+        }
+    }
+
     private func finishRitual(prayerText: String?, origin: String) {
         let seconds = Int(Date().timeIntervalSince(startedAt))
         let entry = RitualEntry(
@@ -237,6 +255,7 @@ struct RitualScreen: View {
             prayerOrigin: origin
         )
         RitualStore.commit(entry, context: modelContext)
+        maybeRequestReview()
         GuardModel.shared.clearShield()
         AppGroupStore.focusWindowEndsAt = Date().addingTimeInterval(Double(depth.windowMinutes * 60))
         try? GuardScheduler().schedule(focusMinutes: depth.windowMinutes)
@@ -310,6 +329,7 @@ private struct DeepRitualView: View {
                 .font(Theme.serifTitle)
                 .multilineTextAlignment(.center)
                 .padding(.top, 40)
+                .padding(.horizontal, 24)
             Components.VerseCard(verse: verse)
                 .padding(.horizontal, 24)
             TextEditor(text: $prayerText)

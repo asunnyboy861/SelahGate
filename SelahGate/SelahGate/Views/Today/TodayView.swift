@@ -10,6 +10,7 @@ struct TodayView: View {
     @StateObject private var purchaseManager = PurchaseManager.shared
     @State private var showPicker = false
     @State private var showSOS = false
+    @State private var recentDays: [Bool] = []
 
     private var verse: Verse {
         let day = VerseLibrary.currentDayIndex
@@ -19,9 +20,7 @@ struct TodayView: View {
         return v
     }
 
-    private var recentDays: [Bool] {
-        let events = (try? modelContext.fetchCount(FetchDescriptor<UnlockEvent>())) ?? 0
-        _ = events
+    private func recomputeRecentDays() {
         var flags: [Bool] = []
         let calendar = Calendar.current
         for offset in (0..<84).reversed() {
@@ -34,7 +33,7 @@ struct TodayView: View {
                 flags.append(count > 0)
             }
         }
-        return flags
+        recentDays = flags
     }
 
     var body: some View {
@@ -109,7 +108,18 @@ struct TodayView: View {
         }
         .padding(18)
         .background(Theme.card, in: RoundedRectangle(cornerRadius: 20))
-        .onAppear { dailyState.attach(context: modelContext); dailyState.reload(); dailyState.rollIfNeeded() }
+        .onAppear {
+            dailyState.attach(context: modelContext)
+            dailyState.reload()
+            dailyState.rollIfNeeded()
+            recomputeRecentDays()
+        }
+        .onChange(of: dailyState.state.freeRitualsUsed) {
+            recomputeRecentDays()
+        }
+        .onChange(of: dailyState.state.currentStreak) {
+            recomputeRecentDays()
+        }
     }
 
     private var quotaCard: some View {

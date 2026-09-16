@@ -17,7 +17,7 @@ struct DailyVerseProvider: TimelineProvider {
     }
 
     func getTimeline(in context: Context, completion: @escaping (Timeline<DailyVerseEntry>) -> Void) {
-        let nextMidnight = Calendar.current.startOfDay(for: Date().addingTimeInterval(86400 * 2))
+        let nextMidnight = Calendar.current.startOfDay(for: Date().addingTimeInterval(86400))
         completion(Timeline(entries: [entry()], policy: .after(nextMidnight)))
     }
 

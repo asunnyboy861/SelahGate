@@ -9,7 +9,14 @@ struct SettingsView: View {
     @AppStorage("eveningReminder") private var reminderEnabled = false
     @AppStorage("defaultDepth") private var defaultDepth = RitualDepth.light.rawValue
     @AppStorage("bibleTranslation") private var bibleTranslation = "KJV"
+    @AppStorage("aiProvider") private var aiProviderRaw = AIProviderSetting.off.rawValue
     @AppStorage("hasCompletedOnboarding") private var hasCompletedOnboarding = false
+    @State private var apiKeyInput = ""
+    @State private var keySaved = false
+
+    private var selectedProvider: AIProviderSetting {
+        AISettings.provider
+    }
 
     private var pauseVerse: Verse { VerseLibrary.randomToday() }
 
@@ -89,32 +96,43 @@ struct SettingsView: View {
 
     private var aiSection: some View {
         Section {
-            Picker("AI prayers", selection: Binding(
-                get: { AISettings.provider },
-                set: { AISettings.provider = $0 }
-            )) {
-                Text(AIProviderSetting.off.title).tag(AIProviderSetting.off)
-                Text(AIProviderSetting.apple.title).tag(AIProviderSetting.apple)
-                Text(AIProviderSetting.byo.title).tag(AIProviderSetting.byo)
+            Picker("AI prayers", selection: $aiProviderRaw) {
+                Text(AIProviderSetting.off.title).tag(AIProviderSetting.off.rawValue)
+                Text(AIProviderSetting.apple.title).tag(AIProviderSetting.apple.rawValue)
+                Text(AIProviderSetting.byo.title).tag(AIProviderSetting.byo.rawValue)
             }
-            if AISettings.provider == .apple {
+            if selectedProvider == .apple {
                 Text(PrayerEngine.shared.appleIntelligenceAvailable
                      ? "Apple Intelligence is available on this device. Prayers generate on-device, free and private."
                      : "Apple Intelligence requires a supported iPhone (iOS 26+). The app falls back to the built-in prayer library.")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
-            if AISettings.provider == .byo {
-                SecureField("API key", text: Binding(
-                    get: { "" },
-                    set: { AISettings.saveKey($0) }
-                ))
+            if selectedProvider == .byo {
+                SecureField("Paste your API key", text: $apiKeyInput)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+                    .accessibilityLabel("Your API key")
+                Button("Save key") {
+                    let trimmed = apiKeyInput.trimmingCharacters(in: .whitespacesAndNewlines)
+                    guard !trimmed.isEmpty else { return }
+                    AISettings.saveKey(trimmed)
+                    apiKeyInput = ""
+                    keySaved = true
+                }
+                .disabled(apiKeyInput.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                if keySaved {
+                    Label("Key saved to your Keychain", systemImage: "checkmark.circle.fill")
+                        .font(.caption)
+                        .foregroundStyle(Theme.sage)
+                }
                 Text("Bring your own key — unlimited AI prayers, billed by your own provider. Stored securely in your Keychain. We never mark up your tokens.")
                     .font(.caption)
                     .foregroundStyle(.secondary)
                 if AISettings.hasKey {
                     Button("Remove stored key", role: .destructive) {
                         AISettings.deleteKey()
+                        keySaved = false
                     }
                 }
             }
